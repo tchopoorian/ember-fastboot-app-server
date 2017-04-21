@@ -16,6 +16,7 @@ const S3_SECRET = process.env.FASTBOOT_S3_SECRET;
 
 let s3;
 
+
 if (S3_REGION || S3_KEY || S3_SECRET) {
   s3 = new AWS.S3({
     region: S3_REGION,
