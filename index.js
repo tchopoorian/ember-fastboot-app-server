@@ -36,11 +36,12 @@ const downloader = new S3Downloader({
   baseArchivePath: process.env.BASE_ARCHIVE_PATH,
   s3: s3
 });
-const notifier = new S3Notifier({
-  bucket: process.env.FASTBOOT_S3_BUCKET,
-  key: process.env.FASTBOOT_DEPLOY_INFO,
-  s3: s3
-});
+
+// const notifier = new S3Notifier({
+//   bucket: process.env.FASTBOOT_S3_BUCKET,
+//   key: process.env.FASTBOOT_DEPLOY_INFO,
+//   s3: s3
+// });
 
 let cache;
 if (REDIS_HOST || REDIS_PORT || REDIS_URL) {
