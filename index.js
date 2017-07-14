@@ -54,7 +54,6 @@ const notifier = new S3Notifier({
 const server = new FastBootAppServer({
   downloader: downloader,
   notifier: notifier,
-  distPath: 'dist',
   gzip: true
 });
 
