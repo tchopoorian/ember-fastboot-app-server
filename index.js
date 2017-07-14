@@ -53,8 +53,9 @@ if (REDIS_HOST || REDIS_PORT || REDIS_URL) {
 
 const server = new FastBootAppServer({
   downloader: downloader,
-  notifier: notifier
-  // cache: cache
+  notifier: notifier,
+  distPath: 'dist',
+  gzip: true
 });
 
 server.start();
