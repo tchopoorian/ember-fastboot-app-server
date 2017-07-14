@@ -32,3 +32,8 @@ current
 deploys/deploy-dist*
 deploys/dist*
 tmp/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
