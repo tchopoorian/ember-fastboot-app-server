@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/he9qi/ember-fastboot-app-server.git"
+    "url": "https://github.com/tchopoorian/ember-fastboot-app-server.git"
   },
   "keywords": [
     "ember",
@@ -20,9 +20,9 @@
   "author": "Qi He <qhe@heyook.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/he9qi/ember-fastboot-app-server/issues"
+    "url": "https://github.com/tchopoorian/ember-fastboot-app-server/issues"
   },
-  "homepage": "https://github.com/he9qi/ember-fastboot-app-server",
+  "homepage": "https://github.com/tchopoorian/ember-fastboot-app-server",
   "dependencies": {
     "aws-sdk": "^2.3.4",
     "fastboot-app-server": "^1.0.0-rc.5",
