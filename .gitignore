@@ -27,7 +27,13 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
-deploy-dist*
 .env
 current
-deploys
+deploys/deploy-dist*
+deploys/dist*
+tmp/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
