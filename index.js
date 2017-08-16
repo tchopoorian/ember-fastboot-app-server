@@ -41,7 +41,7 @@ const downloader = new S3Downloader({
 const server = new FastBootAppServer({
   downloader: downloader,
   // notifier: notifier,
-  cache: cache
+  // cache: cache
 });
 
 server.start();
