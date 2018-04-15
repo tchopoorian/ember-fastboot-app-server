@@ -28,8 +28,8 @@ if (S3_REGION || S3_KEY || S3_SECRET) {
 const downloader = new S3Downloader({
   bucket: process.env.FASTBOOT_S3_BUCKET,
   key: process.env.FASTBOOT_DEPLOY_INFO || "fastboot-deploy-info.json",
-  currentPath: process.env.DEPLOY_CURRENT_PATH || "",
-  baseArchivePath: process.env.BASE_ARCHIVE_PATH || "",
+  currentPath: process.env.DEPLOY_CURRENT_PATH || ".",
+  baseArchivePath: process.env.BASE_ARCHIVE_PATH || ".",
   s3: s3
 });
 
